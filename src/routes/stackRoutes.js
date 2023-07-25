@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { Home } from '../pages/home'
 import { Details } from '../pages/details'
 import { Search } from '../pages/search'
+import { AddRecipe } from '../pages/addrecipe'
 
 const Stack = createNativeStackNavigator()
 
@@ -29,7 +30,7 @@ export function StackRoutes(){
         options={{
           title: 'Veja o que encontramos'
         }}
-      />
+      />      
     </Stack.Navigator>    
   )
 }
